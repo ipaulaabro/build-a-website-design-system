@@ -4,19 +4,101 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;
   color: #13183f;
 }
+
 #root {
+  width: 80%;
+  max-width: 1110px;
   margin: 66px auto;
 }
 
 header {
-  width: 80%;
-  max-width: 1440px;
   margin-bottom: 80px;
 }
 
 h1 {
   font-size: 36px;
+  line-height: 45px;
   font-weight: 800;
   opacity: 0.4;
   text-align: right;
+}
+
+h2 {
+  color: #83869a;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 800;
+  margin-bottom: 41px;
+}
+
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.color {
+  width: 255px;
+  height: 125px;
+  border-radius: 10px;
+}
+
+.blue-gray {
+  background-color: #666ca1;
+}
+
+.dark-blue {
+  background-color: #13183f;
+}
+
+.gray {
+  background-color: #83869a;
+}
+
+.dark-pink {
+  background-color: #f74780;
+}
+
+.pink {
+  background-color: #ffa7c3;
+}
+
+.white {
+  background-color: #fff;
+  border: 1px solid #bababa;
+}
+
+.orange-pink-gradient {
+  background: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
+}
+
+.purple-pink-gradient {
+  background: linear-gradient(180deg, #4851ff 0%, #f02aa6 99.92%);
+}
+
+.hex {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin: 24px 0 16px;
+}
+
+.hex::before {
+  content: "#";
+  opacity: 0.25;
+}
+
+table {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+th {
+  color: #83869a;
+}
+
+th,
+td {
+  padding: 3px 30px 3px 0;
 }
