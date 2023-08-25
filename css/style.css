@@ -169,3 +169,43 @@ li.font-size {
   font-size: 16px;
   font-weight: 700;
 }
+
+.buttons {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+}
+
+.buttons > div {
+  width: 350px;
+  height: 393px;
+  background-color: rgba(131, 134, 154, 0.1);
+  border-radius: 10px;
+}
+
+.button {
+  width: 167px;
+  height: 56px;
+  border-radius: 28px;
+
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  margin: 65px auto 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.buttons p {
+  color: #83869a;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.hover .button:not(.blue-gray) {
+  opacity: 0.5;
+}
